@@ -14,7 +14,6 @@
     <!-- Bootstrap core CSS -->
     <link  rel="stylesheet" href="../css/bootstrap.css">
     <!-- Favicons -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <meta name="theme-color" content="#563d7c">
     <style>
     .bd-placeholder-img {
@@ -37,7 +36,7 @@
 <body>
     
     <nav class="navbar navbar-dark sticky-top bg-dark flex-md-nowrap p-0 shadow">
-        <a class="navbar-brand col-md-3 col-lg-2 mr-0 px-3" href="./">Pambansang Damit</a>
+        <a class="navbar-brand col-md-3 col-lg-2 mr-0 px-3" href="./">Window Shopping</a>
         <button class="navbar-toggler position-absolute d-md-none collapsed" type="button" data-toggle="collapse" data-target="#sidebarMenu" aria-controls="sidebarMenu" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>

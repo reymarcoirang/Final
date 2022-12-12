@@ -106,8 +106,8 @@
 </div></div></div>
 
 
-     <script href="./js/jquery.js"></script>
-     <script href="./js/bootstrap.js"></script> 
+     <script href="../js/jquery.js"></script>
+     <script href="../js/bootstrap.js"></script> 
 
      <!-- dsfhjisdhfjsdfjs -->
 

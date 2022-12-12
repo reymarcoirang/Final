@@ -159,31 +159,8 @@
                                             <td><img style="width: 2em" src="../img/' . $value['photo2'] . '"/></td>
                                             <td>
                                                 <a href="update-product.php?k=' . $value['id'] . '" class="btn btn-success"><i class=" fa fa-edit"></i> Edit</a> 
-                                                <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#exampleModalCenter"><i class=" fa fa-trash"></i> Remove</button>
-                                                <!-- Modal -->
-                                                <form>
-                                                    <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-                                                        <div class="modal-dialog modal-dialog-centered" role="document">
-                                                            <div class="modal-content">
-                                                                <div class="modal-header">
-                                                                    <h5 class="modal-title" id="exampleModalLongTitle">Do you want remove this record?</h5>
-                                                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                                                    <span aria-hidden="true">&times;</span>
-                                                                    </button>
-                                                                </div>
-                                                            <div class="modal-body">
-                                                                <p><b>Product Name: </b> ' .  $recProductsInfo[0]['name'] . ' </p>
-                                                                <p><b>Product Description: </b>' . $recProductsInfo[0]['description'] .  '</p>
-                                                                <p><b>Product Price: </b> ' .$recProductsInfo[0]['price'] . ' </p>
-                                                            </div>
-                                                                <div class="modal-footer">
-                                                                    <a href="delete-product.php?k=' . $recProductsInfo[0]['id'] .'" class="btn btn-light" >Yes</a>
-                                                                    <button type="button" class="btn btn-dark" data-dismiss="modal">No</button>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </form>
+                                                <a href="delete-product.php?k=' . $value['id'] . '" class="btn btn-danger"><i class=" fa fa-trash"></i> Remove</a>
+                                
                                             </td>
                                         </tr>
         
